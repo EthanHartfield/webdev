@@ -42,3 +42,12 @@ function getQuote() {
   qt.innerHML = quoteStr;
   
 }
+
+  /*Code for swapping images */
+  function showImage(image){
+    var largeImg = document.getElementById('large_img');
+    largeImg.src = image;
+  }
+  
+  /*Write a function OR update the showImage function
+  to randomize the aside text related to each different image.*/
