@@ -1,4 +1,57 @@
 /*Your style will go here*/
 body{
     background-color: darkgray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+p{
+    font-size: 20pt;
+    color: darkslategray;
+}
+
+h1{
+    color:crimson;
+    font-weight: bolder;
+}
+h2{
+    color:rgb(36, 34, 33);
+    background-color: lightslategray;
+}
+
+.boldWord{
+    font-weight: bolder;
+}
+
+.standout{
+    background-image: linear-gradient(to left, violet, purple);
+    color:black;
+    font-size: 24pt;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/*The following styles is for file listing6_2.html*/
+.rightAlign{
+    text-align: right;
+    background-color: white;
+}
+
+.centerAlign{
+    text-align: center;
+}
+
+.tblHeader{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:crimson;
+    font-size: 24pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.preBackColor{
+    background-color: rgb(173, 101, 7);
+    width: 100%;
+    float: right;
+    font-size: 12pt;
 }
