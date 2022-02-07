@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="mathGame.js"></script>
+</head>
+<body>
+    <h1>Event Handler Example</h1>
+    <div>
+        <a href="#"
+        onclick="alert ('A-ha! An Event!');">Go nowhere but here!</a>
+        <button onclick="alert('A button was pressed');">Click me!</button>
+    </div>
+    
+
+
+
+
+
+
+    <h1>Multiplication Practice Game:</h1>
+    <form id="mygame" name="mygame">
+        <span id="showMessage"></span>
+        <span id="num1"></span> x <span id="num2"></span>?
+        <input type="text" id="numberGuess" autofocus="autofocus">
+        <input type="submit" id="submitAnswer" onclick="checkAnswer()"><br>
+        <p id="feedback"></p>
+    </form>
+
+
+</body>
+</html>
