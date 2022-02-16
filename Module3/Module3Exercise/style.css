@@ -1,0 +1,48 @@
+body{
+    background: url("../images/cool-background.png") no-repeat top right; 
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* :psudo-classes for the <a> tage */
+a:link, a:visited {
+    color:darkgreen
+}
+
+/*a:visited {
+    color: #a1182f;
+}
+*/
+a:hover {
+    color:#1ec835;
+}*/
+
+a:focus {
+    color:chocolate;
+}
+
+a:active {
+    color:goldenrod;
+}
+
+.boxColor {
+    background-color: chocolate;
+    border: 2px brown solid;
+}
+
+.rightImg {
+    float: right;
+    padding: 5px 10px 5px 10px; /*TRouBLe*/
+    width: 800px;
+    vertical-align: top;
+}
+
+.container{
+    margin:5% 10% 5% 10%;
+    border: 5px black;
+    padding: 20px
+}

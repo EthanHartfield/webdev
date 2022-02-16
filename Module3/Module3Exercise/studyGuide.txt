@@ -1,0 +1,5 @@
+Chapter 7 Study Guide
+
+1. To add links to other sites on your page, you do something like 
+the following:
+
