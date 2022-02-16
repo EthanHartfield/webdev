@@ -1,5 +1,33 @@
 Chapter 7 Study Guide
 
 1. To add links to other sites on your page, you do something like 
-the following:
+   the following:
 
+2. <a href="#top">Return to Index.</a>
+   The # symbol means that the word top refers to a named anchor point within the current document rather
+   than to a separate page.
+
+3. An HTML link to an email address looks like the following:
+   <a href="mailto:yourusername@yourdomain.com">Send me an
+   email message.</a>
+
+4. You can use an id attribute on any container element in HTML5,
+
+5. The # symbol means that the word top refers to a named anchor point within the current document rather
+   than to a separate page. You can link to a named anchor on another page by
+   including the address or filename followed by # and the anchor name.
+
+6. In order to force the browser to open a download dialog
+   box, add the attribute download to the link.
+
+7. The only difference between linking to pages within your own site and linking to external web content is
+   that when linking outside your site, you need to include the full address to that bit of content.
+
+8. You can provide some additional information in the link so that the subject and bosy of the message also
+   have default values.
+
+9. Remember that forcing a link to open in a new browser windo--especially when it's a full-size new
+   window--goes against some principles of usability and accessibility.
+
+10. a:visited--Describes the style of a hyperlink that has been vistited previously and is present in the
+    browser's memory.
