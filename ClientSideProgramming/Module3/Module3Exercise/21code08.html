@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Adding Text to a Page</title>
+  </head>
+  <body>
+    <h1 id="heading1">Create Your Own Content</h1>
+    <div id="div1">
+    <p id="paragraph1"> Using the W3C DOM, you can dynamically add
+    sentences to this paragraph.</p>
+    <p id="p2"></p>
+    </div>
+    <p>Type a sentence and click the Add! button.</p>
+    <form name="changeform" onsubmit="return false;">
+    <input name="sentence" size="65">
+    <button type="submit" onclick="addText();">Add!</button>
+    </form>
+
+    <script>
+      function addText() {
+        if (!document.getElementById) return;
+        const para = document.createElement
+        //get the sentence typed in the input box
+        var sentence=document.changeform.sentence.value;
+        //create a new text node for the document
+        var node=document.createTextNode(" " + sentence);
+        //append the new text node to the existing paragraph
+        //document.getElementById("paragraph1").appendChild(node);
+        para.appendChild(node);
+        const element = document.getElementById("div1");
+        const child = document.getElementById("p2");
+        element.insertBefore(para, child);
+        document.changeform.sentence.value=""; //clear the inpute box
+        //I want to be able to add new paragraphs below the current one
+      }
+    </script>
+  </body>
+</html>
