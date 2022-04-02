@@ -2,6 +2,9 @@
   width: 100%;
   display: flex; 
 }  
+#main_content { 
+  margin: 0px 20px 0px 20px;
+}
 #secondary_content { 
   order: -1; 
 }
@@ -11,8 +14,8 @@ footer {
   text-align:center;
   font-style: italic;
 }
-#secondary_content { width: 200px; background-color: #52f471; }
-#tertiary_content { width: 125px; background-color: #f452d5; }
+#secondary_content { width: 400px; background-color: rgb(128, 191, 128); }
+#tertiary_content { width: 250px; background-color: rgb(191, 128, 191); }
 #secondary_content ul {
   list-style: none;
   margin: 12px 0px 0px 12px;
@@ -31,6 +34,14 @@ footer {
   font-weight: bold;
   padding: 3px 0px 3px 3px;
   color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+#tertiary_content p {
+  font-size: 12pt;
+  padding: 3px 0px 3px 3px;
+  margin: 12px 0px 0px 12px;
+  color: #000000;
   text-decoration: none;
   display: block;
 }

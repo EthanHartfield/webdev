@@ -7,6 +7,7 @@
 }
 #main_content { 
   grid-area: main_content;
+  margin: 0px 20px 0px 20px;
 }
 footer {
   background-color: #cccccc;
@@ -15,16 +16,16 @@ footer {
 }
 #secondary_content { 
   grid-area: secondary_content;
-  background-color: #52f471; 
-}
-#tertiary_content { 
-  grid-area: tertiary_content;
-  background-color: #f452d5;
+  background-color: rgb(128, 191, 128); 
 }
 #secondary_content ul {
   list-style: none;
   margin: 12px 0px 0px 12px;
   padding: 0px;
+}
+#tertiary_content { 
+  grid-area: tertiary_content;
+  background-color: rgb(191, 128, 191);
 }
 #secondary_content li a:link, #secondary_content li a:visited {
   font-size: 12pt;
@@ -39,6 +40,14 @@ footer {
   font-weight: bold;
   padding: 3px 0px 3px 3px;
   color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+#tertiary_content p {
+  font-size: 12pt;
+  padding: 3px 0px 3px 3px;
+  margin: 12px 0px 0px 12px;
+  color: #000000;
   text-decoration: none;
   display: block;
 }
